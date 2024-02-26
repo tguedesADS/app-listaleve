@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    font-family: "Signika", sans-serif;
+    color: #40371B;
+    user-select: none;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 140px;
+    margin: 0 auto;
+}
+
+
+input {
+    color: #40371B;
+    background-color: #e6e5dc;
+    border: 0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Signika", sans-serif;
+}
+
+button {
+    color: #40371B;
+    background-color: #F2CD5C;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #F2B705;
+    cursor: pointer;
+}
+
+ul{
+flex-wrap: wrap;
+display: flex;
+list-style: none;
+padding: 10px 0px;
+gap: 10px;
+}
+
+ul li {
+    font-size: 19px;
+    background-color: #fffdf8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+ul li:hover{
+    background-color: #F2E3B6;
+    cursor: pointer;
+
+}
