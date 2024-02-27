@@ -1,11 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import {
   getDatabase,
   ref,
   push,
   onValue,
   remove,
-} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
 
 const appSettings = {
   databaseURL:
