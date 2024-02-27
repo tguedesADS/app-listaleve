@@ -68,4 +68,3 @@ function addItemList(item) {
     remove(exactLocationShoppingListInDB);
   });
 }
-
